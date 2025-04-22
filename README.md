@@ -1,59 +1,49 @@
-<header>
-
-<!--
-  <<< Author notes: Course header >>>
-  Include a 1280×640 image, course title in sentence case, and a concise description in emphasis.
-  In your repository settings: enable template repository, add your 1280×640 social image, auto delete head branches.
-  Add your open source license, GitHub uses MIT license.
--->
-
-# GitHub Pages
-
-_Create a site or blog from your GitHub repositories with GitHub Pages._
-
-</header>
-
-<!--
-  <<< Author notes: Step 2 >>>
-  Start this step by acknowledging the previous step.
-  Define terms and link to docs.github.com.
-  Historic note: previous version checked for empty pull request, changed to the correct theme `minima`.
--->
-
-## Step 2: Configure your site
-
-_You turned on GitHub Pages! :tada:_
-
-We'll work in a branch, `my-pages`, that I created for you to get this site looking great. :sparkle:
-
-Jekyll uses a file titled `_config.yml` to store settings for your site, your theme, and reusable content like your site title and GitHub handle. You can check out the `_config.yml` file on the **Code** tab of your repository.
-
-We need to use a blog-ready theme. For this activity, we will use a theme named "minima".
-
-### :keyboard: Activity: Configure your site
-
-1. Browse to the `_config.yml` file in the `my-pages` branch.
-1. In the upper right corner, open the file editor.
-1. Add a `theme:` set to **minima** so it shows in the `_config.yml` file as below:
-   ```yml
-   theme: minima
-   ```
-1. (optional) You can modify the other configuration variables such as `title:`, `author:`, and `description:` to further customize your site.
-1. Commit your changes.
-1. (optional) Create a pull request to view all the changes you'll make throughout this course. Click the **Pull Requests** tab, click **New pull request**, set `base: main` and `compare:my-pages`.
-1. Wait about 20 seconds then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
-
-<footer>
-
-<!--
-  <<< Author notes: Footer >>>
-  Add a link to get support, GitHub status page, code of conduct, license link.
--->
-
----
-
-Get help: [Post in our discussion board](https://github.com/orgs/skills/discussions/categories/github-pages) &bull; [Review the GitHub status page](https://www.githubstatus.com/)
-
-&copy; 2023 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
-
-</footer>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahtishan Tech&Trader</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Ahtishan Tech&Trader</h1>
+    </header>
+    <section class="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Full-Stack WEB Developer (MERN stack, HTML, CSS, JAVA, React)</li>
+            <li>Binance Trader (Market analysis, algorithmic trading, risk management)</li>
+            <li>Photographer (Portraits, landscapes, street photography)</li>
+            <li>Video Editor (Cutting, color grading, motion graphics)</li>
+        </ul>
+    </section>
+    <section class="projects">
+        <h2>Developer's Projects</h2>
+        <p>Click the arrow to see my works. Projects are posted on <a href="https://github.com/" target="_blank">GitHub</a>.</p>
+        <img src="pic/Screenshot_2025-03-16_041844.png" alt="Project Screenshot 1">
+        <img src="pic/Screenshot_2025-03-16_044024.png" alt="Project Screenshot 2">
+        <img src="pic/Screenshot_2025-03-16_044134.png" alt="Project Screenshot 3">
+        <img src="pic/Screenshot_2025-03-16_044419.png" alt="Project Screenshot 4">
+    </section>
+    <section class="trading">
+        <h2>Binance Trading</h2>
+        <p>Skilled in spot & futures trading, diversification, and maximizing profits with data-driven decisions.</p>
+        <p>Check out my recorded video about trading on <a href="https://www.youtube.com/" target="_blank">YouTube</a>.</p>
+    </section>
+    <section class="photography">
+        <h2>Photography</h2>
+        <p>Proficient in DSLR & mirrorless cameras, lighting setups, and post-production tools like Photoshop & Lightroom.</p>
+        <img src="pic/WhatsApp_Image_2025-03-16_at_03.03.37_6ff244e4.jpg" alt="Photography Example">
+    </section>
+    <section class="video-editing">
+        <h2>Video Editing</h2>
+        <p>Expertise in cutting, color grading, and motion graphics to create engaging visuals. Watch my video editing tutorial on <a href="https://www.youtube.com/" target="_blank">YouTube</a>.</p>
+    </section>
+    <footer>
+        <h2>Contact <h3>phone_no 03056306868 && Email ahtishanyounas786@gmail.com</h3> </h2>
+        <p>You can reach out to me anytime for your design needs or inquiries. I’d love to hear from you!</p>
+    </footer>
+</body>
+</html>
